@@ -7,6 +7,12 @@ A lightweight, portfolio-style dashboard built in Google Sheets to track key sup
 - Average Lead Time (days)
 - Reorder Point (simple: ADS × Lead Time)
 - Fill Rate (simple proxy: % of days with On Hand > 0)
+- 
+- ## Project highlights
+- Built a KPI dashboard in Google Sheets to monitor SKU-level inventory health and replenishment signals.
+- Created an automated KPI table using `UNIQUE`, `FILTER`, `AVERAGEIF`, and `COUNTIFS` to avoid manual updates.
+- Visualized reorder points and demand velocity using simple column charts for quick decisions.
+
 
 ## How it works (Sheets tabs)
 - **Raw_Data**: sample transaction-level data (sales, receipts, on-hand, lead time)
